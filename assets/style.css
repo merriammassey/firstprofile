@@ -1,0 +1,148 @@
+:root {
+    --primary-color:
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Style Start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:rgba(21, 69, 53, 0.42); 
+    font-weight: bold;
+}
+
+header h1 {
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Style Start */
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+/* Hero Style Start */
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/horizriver.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main section style start */
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#about-me img {
+    display: flex;
+    max-width: 30%;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Portfolio section style start */
+
+#my-work {
+
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 5%;
+}
+
+.first-work {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    border: 5px solid cadetblue;
+    background-image: url("../assets/horizriver.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.other-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: 400px;
+    margin: 10px;
+}
+
+.other-works > article {
+    display: flex;
+    flex: 3;
+    min-height: 200px;
+    border: 5px solid cadetblue;
+    background-image: url("../assets/bb.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
