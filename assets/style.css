@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
 }
 
 /* Header Style Start */
@@ -71,7 +72,6 @@ nav ul li {
 .hero {
     height: 400px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../assets/horizriver.jpg");
     background-size: cover;
     background-position: center;
@@ -84,7 +84,7 @@ nav ul li {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 3%;
 }
 
 .headshot {
@@ -102,7 +102,7 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 1% 10% 1% 10%;
     width: 100%;
 }
 
@@ -113,8 +113,12 @@ nav ul li {
     background-size: cover; 
     background-position: center;
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
+}
 
+.first-work a {
+    text-decoration: none;
+    color: black;
 }
 
 .other-works {
@@ -144,24 +148,23 @@ nav ul li {
     background-color: cadetblue;
     padding: .5%;
 }
-/* <section id="my-work" class="my-work">
-            <div class="portfolio">
-                <a href="https://merriammassey.github.io/run-buddy/">
-                <div class="first-work">
-                    <div class="work-title">
-                        <h3>
-                            Run Buddy
-                        </h3>
-                    <br>
-                        <h4>
-                            HTML & CSS
-                        </h4>
-                    </div>
-                </div>
-                </a>
+/* Footer section style begin */
 
-                <div class="other-works">
-                    <a href="">
-                        <article>
+footer {
+    display: flex;
+    background: #fce138;
+    width: 100%;
+    height: 20%;
+}
 
-                        </article>
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 10% 20% 10% 20%;
+}
