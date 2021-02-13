@@ -81,68 +81,87 @@ nav ul li {
 #about-me {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    align-content: center;
+    padding: 10%;
 }
 
-#about-me img {
-    display: flex;
-    max-width: 30%;
+.headshot {
+    width: 20%;
 }
 
 .bio {
     display: flex;
     flex-direction: column;
 }
-
-/* Portfolio section style start */
-
-#my-work {
-
-}
+/* Portfolio Section style start */
 
 .portfolio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    padding: 10%;
     width: 100%;
-    padding: 5%;
 }
 
 .first-work {
-    width: 100%;
-    min-height: 400px;
     display: flex;
     border: 5px solid cadetblue;
     background-image: url("../assets/horizriver.jpg");
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
-    margin: 10px;
+    width: 100%;
+    min-height: 200px;
+
 }
 
 .other-works {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
     width: 100%;
-    min-height: 400px;
-    margin: 10px;
+    min-height: 200px;
+    justify-content: space-between;
+    margin-top: 5%;
 }
 
-.other-works > article {
+.work {
     display: flex;
-    flex: 3;
-    min-height: 200px;
     border: 5px solid cadetblue;
-    background-image: url("../assets/bb.jpg");
-    background-size: cover;
+    background-image: url("../assets/horizriver.jpg");
+    background-size: cover; 
     background-position: center;
-    margin: 10px;
+    width: 45%;
+    min-height: 200px;
+    padding: 10px;
 }
+
+.work-title {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: cadetblue;
+    padding: .5%;
+}
+/* <section id="my-work" class="my-work">
+            <div class="portfolio">
+                <a href="https://merriammassey.github.io/run-buddy/">
+                <div class="first-work">
+                    <div class="work-title">
+                        <h3>
+                            Run Buddy
+                        </h3>
+                    <br>
+                        <h4>
+                            HTML & CSS
+                        </h4>
+                    </div>
+                </div>
+                </a>
+
+                <div class="other-works">
+                    <a href="">
+                        <article>
+
+                        </article>
