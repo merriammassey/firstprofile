@@ -241,3 +241,34 @@ footer ul li {
         margin-bottom: 5%;
     }
 }
+
+/* MEDIA QUERY FOR PRINTING */
+@media print {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        justify-content: center;
+    }
+
+    nav {
+        align-content: center;
+    }
+
+    header nav ul li a {
+        margin: 0 30px;
+        font-size: 3vw;
+    }
+    .other-works {
+        flex-direction: column;
+    }
+
+    .work1, .work2 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
