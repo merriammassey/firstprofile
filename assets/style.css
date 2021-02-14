@@ -90,6 +90,7 @@ nav ul li {
 
 .headshot {
     width: 20%;
+    flex-wrap: wrap;
 }
 
 .bio {
@@ -175,4 +176,68 @@ footer ul {
 
 footer ul li {
     padding: 10% 20% 10% 20%;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        justify-content: center;
+    }
+    
+    nav {
+        align-content: center;
+    }
+
+    header nav ul li a {
+        margin: 0 30px;
+        font-size: 3vw;
+    }
+    .other-works {
+        flex-direction: column;
+    }
+
+    .work1, .work2 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .headshot {
+        justify-content: center;
+    }
+
+    nav {
+        align-content: center;
+    }
+
+    header nav ul li a {
+        margin: 0 30px;
+        font-size: 3vw;
+    }
+    .other-works {
+        flex-direction: column;
+    }
+
+    .work1, .work2 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
 }
