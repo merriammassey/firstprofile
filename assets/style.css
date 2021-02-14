@@ -79,6 +79,9 @@ nav ul li {
 }
 
 /* Main section style start */
+
+/* About me section style start */
+
 #about-me {
     display: flex;
     flex-direction: row;
@@ -91,6 +94,9 @@ nav ul li {
 .headshot {
     width: 20%;
     flex-wrap: wrap;
+    border-style: solid;
+    border: solid 2px black;
+    margin: 2%;
 }
 
 .bio {
@@ -156,6 +162,8 @@ nav ul li {
     align-self: flex-end;
     background-color: cadetblue;
     padding: .5%;
+    text-decoration: none;
+    color: black;
 }
 
 /* Footer section style begin */
