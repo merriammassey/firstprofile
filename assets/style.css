@@ -73,7 +73,7 @@ nav ul li {
 .hero {
     height: 400px;
     width: 100%;
-    background-image: url("../assets/horizriver.jpg");
+    background-image: url("../assets/horizriver.JPG");
     background-size: cover;
     background-position: center;
 }
@@ -116,6 +116,7 @@ nav ul li {
     background-position: center;
     width: 100%;
     min-height: 300px;
+    object-fit: none;
 }
 
 .first-work a {
