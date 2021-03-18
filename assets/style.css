@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color:rgba(21, 69, 53, 0.42); 
+    background-color: cadetblue;
     font-weight: bold;
 }
 
@@ -117,7 +117,7 @@ nav ul li {
 .first-work {
     display: flex;
     border: 5px solid cadetblue;
-    background-image: url("../assets/rb.jpg");
+    background-image: url("../assets/jobless.png");
     background-size: cover; 
     background-position: center;
     width: 100%;
@@ -139,10 +139,9 @@ nav ul li {
     margin-top: 5%;
 }
 
-.work1, .work2 {
+.work1, .work2, .work3, .work4 {
     display: flex;
     border: 5px solid cadetblue;
-    background-image: url("../assets/bb.jpg");
     background-size: cover; 
     background-position: center;
     width: 45%;
@@ -150,10 +149,16 @@ nav ul li {
 }
 
 .work1 {
+    background-image: url("../assets/rb.jpg");
+}
+.work4 {
+    background-image: url("../assets/bb.jpg");
+}
+.work3 {
     background-image: url("../assets/sbr.jpg");
 }
 .work2 {
-    background-image: url("../assets/bb.jpg");
+    background-image: url("../assets/weather2.jpg");
 }
 
 .work-title {
